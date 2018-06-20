@@ -1,0 +1,52 @@
+/* Imported Font */
+@font-face {
+    font-family: 'zrnicregular';
+    src: url('/Fonts/zrnic_rg-webfont.woff2') format('woff2'),
+         url('/Fonts/zrnic_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Navbar */
+#navbar {
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, .1);
+}
+
+/* Main page css */
+#mac-img {
+    background-image: url("../images/macbg.jpg");
+    background-size: cover;
+    height: 650px;
+    background-repeat: no-repeat;
+}
+
+#img-text{
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+.myname {
+    font-family: 'zrnicregular'; 
+}
+
+.arrow-down {
+    width: 200px;
+    height: 200px;
+    transition: .5s;
+    margin-left: 45%;
+    box-shadow: -2px 2px 0 rgba(0, 0, 0, 1);
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow-down:hover {
+    box-shadow: -2px 2px 0 rgba(0, 0, 0, .5);
+}
+
+.grid {
+    margin-top: 100px;
+}
+
+.project-links {
+    text-align: center;
+}
