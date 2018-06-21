@@ -10,14 +10,16 @@
     <!--Bulma-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!--Variable Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/css/mystyles.scss" />
     <!--Custom stylesheet-->
-    <link rel="stylesheet" type="text/css"href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <!--jQuery CDN-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
     
 </head>
 <body>
-    <nav class="navbar" id="navbar">
+    <nav class="navbar is-transparent" id="navbar">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
                 <img src="images/RA_Logo.png"  height="28">
@@ -34,14 +36,26 @@
                 <a class="navbar-item" href="/about">
                     About
                 </a>
-                <a class="navbar-item" href="/contact">
-                    Contact Info
-                </a>
             </div>
         </div>
     </nav>
 
     {{{ body }}}
+
+    <footer class="footer">
+        <div class="has-text-centered">
+            <p>Roshnee Acevedo 2018</p>
+            <a href="https://github.com/rsami23" target="_blank">
+                <img id="github-img" src="images/github.png">
+            </a>
+            <a href="https://www.linkedin.com/in/roshnee-acevedo/" target="_blank">
+                <img id="linkedin-img" src="images/linkedin.png">
+            </a>
+            <a href="mailto:roshnee.acevedo@gmail.com" target="_top">
+                <img id="mail-img" src="images/mail.png">
+            </a>
+        </div>
+    </footer>
     
     <!--JavaScript file-->
     <script src="/scripts/main.js"></script>

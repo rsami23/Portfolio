@@ -12,35 +12,69 @@
     box-shadow: -2px 2px 4px rgba(0, 0, 0, .1);
 }
 
+.navbar-item:hover {
+    color: #777777;
+}
+
 /* Main page css */
 #mac-img {
     background-image: url("../images/macbg.jpg");
     background-size: cover;
     height: 650px;
     background-repeat: no-repeat;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, .5);
 }
 
-#img-text{
-    margin-top: 200px;
-    margin-left: 250px;
-}
-
-.myname {
+.imgText {
     font-family: 'zrnicregular'; 
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#myName {
+    color: #7BA4A8;
+    font-size: 85px;
 }
 
 .arrow-down {
-    width: 200px;
-    height: 200px;
-    transition: .5s;
-    margin-left: 45%;
-    box-shadow: -2px 2px 0 rgba(0, 0, 0, 1);
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+    width: 100%;
+    height: 300px;
+    background-color: #7BA4A8;
+    padding: 80px;
 }
 
-.arrow-down:hover {
-    box-shadow: -2px 2px 0 rgba(0, 0, 0, .5);
+.arrow-down:after {
+    content: ' ';
+    width: 0px;
+    height: 0px;
+    border-top: 150px solid #7BA4A8;
+    border-left: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-right: 150px solid transparent;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-left: -150px;
+    position: absolute;
+    z-index: -1;
+}
+
+#code-img {
+    height: 200px;
+    margin-left: 40%;
+}
+
+#title-for-skills {
+    font-family: 'zrnicregular'; 
+    color: black;
+    text-align: center;
+}
+
+.skills {
+    font-family: 'zrnicregular'; 
+    color: black;
+    text-align: center;
+    font-size: 25px;
 }
 
 .grid {
@@ -49,4 +83,16 @@
 
 .project-links {
     text-align: center;
+}
+
+/* Footer */
+footer {
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, .5);
+}
+
+#github-img,
+#linkedin-img,
+#mail-img {
+    height: 40px;
+    margin-top: 10px;
 }

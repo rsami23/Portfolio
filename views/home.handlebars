@@ -1,15 +1,49 @@
 <!--Div with image-->
 <div class="hero">
     <div id="mac-img" class="hero-body">
-        <div id="img-text">
-             <h1 class="title is-1 myname">Roshnee Acevedo</h1>
-            <h2 class="subtitle is-5 myname">Full Stack Web Developer</h2>
+        <div>
+             <h1 class="title is-1 imgText" id="myName">Roshnee Acevedo</h1>
+            <h2 class="subtitle is-5 imgText">Full Stack Web Developer</h2>
         </div>   
     </div>
 </div>
 
 <!--Arrow-->
-<div class="arrow-down"></div>
+<div class="arrow-down">
+    <div class="container">
+        
+        {{!-- <h1 class="title is-2" id="title-for-skills">Skills</h1> --}}
+        <div class="columns">
+            <div class="column is-one-fourth">
+                <img id="code-img" src="images/code.png">
+            </div>
+            <div class="column">
+                <ul>
+                    <li class="skills">HTML</li>
+                    <li class="skills">CSS</li>
+                    <li class="skills">JavaScript</li>
+                    <li class="skills">jQuery</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li class="skills">React</li>
+                    <li class="skills">BootStrap</li>
+                    <li class="skills">Materialize</li>
+                    <li class="skills">Node.js</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li class="skills">MongoDb</li>
+                    <li class="skills">SQL</li>
+                    <li class="skills">FireBase</li>
+                    <li class="skills">Github</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--Portfolio Grid-->
 <section class="section">

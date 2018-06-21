@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/rsami23/Portfolio#readme",
   "dependencies": {
+    "bulma": "^0.7.1",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0"
   }
