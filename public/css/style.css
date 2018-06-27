@@ -141,7 +141,7 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 767px){
     /* Main page */
     #mac-img {
         height: 400px;
@@ -177,7 +177,7 @@ footer {
     }
 
     .skills {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .grid {
@@ -218,7 +218,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024){
+@media screen and (min-width: 768px) and (max-width: 1024){
     .imgText{
         text-align: center;
         margin-left: 0px;
@@ -236,6 +236,10 @@ footer {
 
     .portfolio-box {
         width: 100%;
+    }
+
+    .portfolio-box:hover {
+        transform: scale(0.1);
     }
 
     .button {
