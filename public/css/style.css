@@ -93,6 +93,11 @@
     margin-left: 15%;
 }
 
+.tech-used {
+    text-align: center;
+    margin-top: 10px;
+}
+
 /* About Page */
 #about-img {
     width: 40%;
