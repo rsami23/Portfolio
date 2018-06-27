@@ -142,6 +142,7 @@ footer {
 
 /* Media Queries */
 @media screen and (max-width: 768px){
+    /* Main page */
     #mac-img {
         height: 400px;
     }
@@ -194,4 +195,66 @@ footer {
     .button {
         margin-left: 0px;
     }
+
+    /* About Page */
+    #about-img {
+        width: 90%;
+        margin: 15px 15px;
+        float: none;
+    }
+
+    #about-title {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #about-text {
+        padding: 10px;
+    }
+
+    #ucf {
+        float: none;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .imgText{
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 200px;
+    }
+
+    #code-img {
+        height: 100px;
+        margin-left: 10%;
+    }
+
+    .grid {
+        margin-top: 10px;
+    }
+
+    .portfolio-box {
+        width: 100%;
+    }
+
+    .button {
+        align-content: center;
+    }
+
+    /* About Page */
+    #about-img {
+        width: 50%;
+        margin: 15px 15px;
+    }
+
+    #about-text {
+        padding: 10px;
+    }
+
+    #ucf {
+        float: none;
+        margin-left: 35%;
+    }
+
 }
