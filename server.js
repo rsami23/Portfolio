@@ -12,6 +12,9 @@ app.set("view engine", "handlebars");
 app.get("/", function(req, res) {
     res.render("home.handlebars");
 });
+app.get("/about", function(req, res) {
+    res.render("about.handlebars");
+});
 
 // MAKE PUBLIC FOLDER STATIC
 app.use(express.static("public"));
